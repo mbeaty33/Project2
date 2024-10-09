@@ -1,0 +1,7 @@
+#ifndef LINKEDLIST-FUNCTIONS_H
+#define LINKEDLIST-FUNCTIONS_H
+
+
+
+
+#endif

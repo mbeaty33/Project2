@@ -1,8 +1,6 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-
-
 template <class T> //NODE CLASS
 class Node {
 public:
@@ -16,7 +14,6 @@ template <class T>  //LIST CLASS
 class List {
 private:
     Node<T>* dummyHead; //dummy head node
-
 public:
     List(); //constructor initializes dummy head
     List(const List& rhs); //copy constructor for the overloaded operator
@@ -32,6 +29,8 @@ public:
     void print() const; //prints out the list
     void makeEmpty(); //makes the list empty
     List& operator=(const List& rhs); //overloaded operator
+
+
 
 };
 
